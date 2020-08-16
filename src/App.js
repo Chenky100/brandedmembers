@@ -249,30 +249,30 @@ function App() {
        birthday: bday,
        items:[
         {
-          name:"E item1",
+          name:"Phone",
           quantity: 0,
-          price: 10
+          price: 500
          },
          {
-          name:"D item2",
+          name:"TV",
           quantity: 0,
-          price: 1
+          price: 800
          },
          {
-          name:"B item3",
+          name:"Bluetooth Speaker",
           quantity: 0,
           price: 15
          },
          {
-          name:"C item4",
+          name:"laptop",
           quantity: 0,
           price: 30
          },
          {
-          name:"A item5",
+          name:"xbox",
           quantity: 0,
-          price: 45
-         },
+          price: 300
+         }
         
        ]
      }])
