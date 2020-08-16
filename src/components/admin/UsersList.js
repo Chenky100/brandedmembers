@@ -8,7 +8,8 @@ export default function UsersList(props) {
         age = 0
     }
 
-    if(props.sortBy === "age ↑" ){
+
+    if(props.sortBy === "age ↓" ){
         console.log(age)
         return(
         
@@ -22,7 +23,7 @@ export default function UsersList(props) {
             </div>
         )
     }else
-    if(props.sortBy === "age ↓" ){
+    if(props.sortBy === "age ↑" ){
         return(
             <div>
                 {// sort by age low to high

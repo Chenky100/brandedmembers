@@ -21,7 +21,7 @@ export default function Register(props) {
             alert("Username must be at least 6 characters.");
             return;
         }
-        if(!props.checkUserName(userName)){
+        if(!props.checkUserName(userName) || userName === "admin"){
             alert("Username is already taken.");
             return;
         }

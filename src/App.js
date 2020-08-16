@@ -120,13 +120,13 @@ function App() {
     let userIndex = -1;
     let itemIndex = -1;
     for (let i = 0; i < users.length; i++) {
-      if(userName == users[i].username){
+      if(userName === users[i].username){
         userIndex = i;
         break;
       }
     }
     for (let j = 0; j < users[userIndex].items.length; j++) {
-      if(users[userIndex].items[j].name == itemName){
+      if(users[userIndex].items[j].name === itemName){
         itemIndex = j;
         break;
       }     
@@ -141,14 +141,14 @@ function App() {
     let userIndex = -1;
     let itemIndex = -1;
     for (let i = 0; i < users.length; i++) {
-      if(userName == users[i].username){
+      if(userName === users[i].username){
         userIndex = i;
         break;
       }
     }  
       
     for (let j = 0; j < users[userIndex].items.length; j++) {
-      if(users[userIndex].items[j].name == itemName){
+      if(users[userIndex].items[j].name === itemName){
         itemIndex = j;
         break;
       }     
@@ -161,14 +161,14 @@ function App() {
     let userIndex = -1;
     let itemIndex = -1;
     for (let i = 0; i < users.length; i++) {
-      if(userName == users[i].username){
+      if(userName === users[i].username){
         userIndex = i;
         break;
       }
     }  
       
     for (let j = 0; j < users[userIndex].items.length; j++) {
-      if(users[userIndex].items[j].name == itemName){
+      if(users[userIndex].items[j].name === itemName){
         itemIndex = j;
         break;
       }     
@@ -184,7 +184,7 @@ function App() {
     let count = 0;
     let userIndex = -1;
     for (let i = 0; i < users.length; i++) {
-      if(userName == users[i].username){
+      if(userName === users[i].username){
         userIndex = i;
         break;
       }
@@ -230,7 +230,7 @@ function App() {
     let count = 0;
     let userIndex = -1;
     for (let i = 0; i < users.length; i++) {
-      if(userName == users[i].username){
+      if(userName === users[i].username){
         userIndex = i;
         break;
       }
