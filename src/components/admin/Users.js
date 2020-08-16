@@ -4,7 +4,7 @@ import UsersList from './UsersList'
 export default function Users(props) {
   
 
-    const [sortBy, setSortBy] = useState("age ↓")
+    const [sortBy, setSortBy] = useState("age ↑")
     const [minAge, setMinAge] = useState(0)
     
     const handleMinAge = (e) =>{
